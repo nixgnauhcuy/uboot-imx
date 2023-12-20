@@ -261,7 +261,7 @@ ifneq ($(wildcard $(srctree)/$(src)/logos/$(VENDOR).bmp),)
 LOGO_BMP= $(srctree)/$(src)/logos/$(VENDOR).bmp
 endif
 endif
-
+LOGO_BMP= $(srctree)/$(src)/logos/mylogo.bmp
 endif # !LOGO_BMP
 
 #
